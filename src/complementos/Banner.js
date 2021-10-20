@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 class Banner extends React.Component{
     render(){
         return(
-            <div className ="Elbanner">
+            <div className ="banner">
                 <h2>{this.props.textoban}</h2>
             </div>
         );
@@ -19,5 +19,5 @@ Banner.propTypes = {
 };
 
 Banner.defaultProps = {
-    textoban: "Esto viene por defecto :p"
+    textoban: "texto x"
 }

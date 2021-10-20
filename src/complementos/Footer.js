@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 class Footer extends React.Component{
     render(){
         return(
-            <div className = "Elfooter">
+            <div className = "footer">
                 {this.props.textofoo}
             </div>
         );

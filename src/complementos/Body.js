@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 class Body extends Component{
     render(){
         return(
-            <div className = "Elbody">
+            <div className = "body">
             <h2>{this.props.practica}</h2>
             <ol> 
                 {this.props.eltemas.map((e,inde)=> 
@@ -15,7 +15,7 @@ class Body extends Component{
                 )}
             </ol>
 
-            <Button variant="outline-danger" onClick={()=>(alert("(-_-)"))}>No dar click</Button>
+            <Button variant="outline-danger" onClick={()=>(alert("(Hola)"))}>Enter</Button>
 
             </div>
         );

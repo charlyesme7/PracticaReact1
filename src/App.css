@@ -1,4 +1,4 @@
-.Elbanner{
+.banner{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,7 @@
   height: 10vmin;
 }
 
-.Elbody{
+.body{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@
   min-height: 50vh;
 }
 
-.Elfooter{
+.footer{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +23,7 @@
   height: 15vmin;
 }
 
-.Elheader{
+.header{
   display: flex;
   justify-content: center;
   align-items: center;
